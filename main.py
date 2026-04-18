@@ -18,6 +18,7 @@ async def unlock_pdfs(
     results = []
     files_added = 0
 
+
     # Parse per-file passwords if provided
     password_map = {}
     if passwords:
